@@ -54,7 +54,7 @@ class _TwitterMessageViewState extends State<TwitterMessageView> {
         shrinkWrap: true,
         itemBuilder: (context, index) {
           return Card(
-            shadowColor: Colors.transparent,
+            elevation:0,
             margin: PaddingConstant.instance.marginBottom20,
             color: Theme.of(context).scaffoldBackgroundColor,
             child: Padding(
@@ -103,7 +103,7 @@ class _TwitterMessageViewState extends State<TwitterMessageView> {
   Card _messageCard(BuildContext context) {
     return Card(
       color: Theme.of(context).scaffoldBackgroundColor,
-      shadowColor: Colors.transparent,
+      elevation:0,
       margin: PaddingConstant.instance.paddingNone,
       child: Padding(
         padding: PaddingConstant.instance.paddingSymmetric10,

@@ -49,7 +49,7 @@ class _TwitterSearchViewState extends State<TwitterSearchView> {
         shrinkWrap: true,
         itemBuilder: (context, index) {
           return Card(
-            shadowColor: Colors.transparent,
+            elevation:0,
             margin: PaddingConstant.instance.marginBottom20,
             color: Theme.of(context).scaffoldBackgroundColor,
             child: Padding(
@@ -84,7 +84,7 @@ class _TwitterSearchViewState extends State<TwitterSearchView> {
 
   Card _trendCard(BuildContext context) {
     return Card(
-      shadowColor: Colors.transparent,
+     elevation:0,
       color: Theme.of(context).scaffoldBackgroundColor,
       margin: PaddingConstant.instance.paddingNone,
       child: Container(

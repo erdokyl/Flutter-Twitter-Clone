@@ -49,6 +49,7 @@ class _TwitterTabBarViewState extends State<TwitterTabBarView> {
   }
 
   AppBar _appBar(String url) => AppBar(
+        elevation:0,
         leading: Padding(
           padding: PaddingConstant.instance.paddingAll8,
           child: CircleAvatar(
