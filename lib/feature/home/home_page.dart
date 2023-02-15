@@ -52,9 +52,8 @@ class _HomePageState extends State<HomePage> {
   }
 
   Card get _listViewCard => Card(
-        
+        shadowColor: Colors.transparent,
         margin: PaddingConstant.instance.paddingNone,
-        shadowColor:ColorConstant.instance.black12,
         child: ListTile(
           leading: CircleAvatar(
             radius: 25,

@@ -54,8 +54,8 @@ class _TwitterMessageViewState extends State<TwitterMessageView> {
         shrinkWrap: true,
         itemBuilder: (context, index) {
           return Card(
+            shadowColor: Colors.transparent,
             margin: PaddingConstant.instance.marginBottom20,
-            shadowColor: ColorConstant.instance.black12,
             color: Theme.of(context).scaffoldBackgroundColor,
             child: Padding(
                 padding: PaddingConstant.instance.paddingSymmetric10,
